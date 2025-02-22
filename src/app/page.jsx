@@ -30,12 +30,12 @@ export default function Home() {
             {/* Avitar */}
             <div className="w-16 h-16 p-0.5 bg-white/90 rounded-full shadow-[0px_10px_15px_-3px_rgba(39,39,41,0.05)] shadow-[0px_4px_6px_-4px_rgba(39,39,41,0.05)] flex-col justify-center items-center flex">
               <div className="h-[60px] justify-center items-center inline-flex">
-                <img className="w-[60px] h-[60px] rounded-[32px]" src="/Illustration/Mell.jpg" alt="Mell" />
+                <img className="w-[60px] h-[60px] rounded-[32px]" src="/Illustration/Ethan.jpeg" alt="Ethan Stanley" />
               </div>
             </div>
 
             <div>
-              <h2 className="text-3xl font-bold">Software engineer, father, and believer</h2>
+              <h2 className="text-3xl font-bold">Student Softwear Engineer</h2>
               <p className="mt-2 text-gray-600 dark:text-gray-400">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut et massa mi...
               </p>
@@ -113,9 +113,12 @@ export default function Home() {
             </div>
             <div className="mt-4 space-y-3">
               {[
-                { skill: 'HTML', level: '90%', color: 'bg-red-500' },
-                { skill: 'CSS', level: '85%', color: 'bg-blue-500' },
-                { skill: 'JavaScript', level: '80%', color: 'bg-yellow-500' }
+                { skill: 'Swift', level: '98%', color: 'bg-orange-500' },
+                { skill: 'SwiftUI', level: '97%', color: 'bg-pink-500' },
+                { skill: 'Java', level: '90%', color: 'bg-green-500' },
+                { skill: 'CSS', level: '80%', color: 'bg-blue-500' },
+                { skill: 'JavaScript', level: '80%', color: 'bg-yellow-500' },
+                { skill: 'HTML', level: '70%', color: 'bg-red-500' }
               ].map((skill, index) => (
                 <div key={index}>
                   <div className="flex justify-between text-sm font-medium">

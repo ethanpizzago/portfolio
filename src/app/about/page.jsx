@@ -25,7 +25,7 @@ export default function AboutPage() {
       <main className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16 p-12">
         {/* Text Section */}
         <div className="flex-1">
-          <h2 className="text-4xl font-bold">I’m Jane. I live in New York City, where I develop the future.</h2>
+          <h2 className="text-4xl font-bold">I’m Ethan! I'm a student at Ensign College in Salt Lake City.</h2>
           {range(0,5).map((paragraphNumber) => (
             <div key={paragraphNumber} className="mt-4">
               <Paragraph key={paragraphNumber} />
@@ -36,8 +36,8 @@ export default function AboutPage() {
         {/* Image Section */}
         <div className="flex-1">
           <img
-            src="/Illustration/Jane.jpg"
-            alt="Jane's Picture"
+            src="/Illustration/EnsignBuilding.jpeg"
+            alt="Ensign College, a school in Salt Lake City"
             className="w-full h-auto rounded-xl shadow-md"
           />
           {/* Social Links */}
@@ -56,7 +56,7 @@ export default function AboutPage() {
           {/* Email Contact */}
           <div className="h-11 mt-6 pt-4 py-2 border-t justify-center items-center gap-1 inline-flex">
             <img src="/Icon/Mail.svg" alt="X Logo" width={24} height={24} />
-            jane@email.com
+            email@email.com
           </div>
         </div>
       </main>
